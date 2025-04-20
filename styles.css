@@ -31,3 +31,8 @@ nav a:hover {
       text-align: center;
   }
 }
+.full-width-image {
+  width: 100%;
+  height: auto; /* 保持原图比例 */
+  display: block; /* 去掉底部空白间隙 */
+}
