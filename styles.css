@@ -1,0 +1,33 @@
+/* 全局样式 */
+body {
+  font-family: 'Helvetica', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.highlight {
+  color: #ff6b6b; /* 高亮你的名字 */
+}
+
+/* 导航栏 */
+nav {
+  background: #f4f4f4;
+  padding: 1rem;
+}
+nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #333;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* 响应式设计（手机适配） */
+@media (max-width: 600px) {
+  nav {
+      text-align: center;
+  }
+}
